@@ -53,11 +53,3 @@ add address=2.57.3.0/24 list=Iran
 .
 .
 ```
-
-## 📄 License
-
-MIT License
-
----
-
-> This tool is useful for automating IP-based access control for Iranian networks in MikroTik devices.
