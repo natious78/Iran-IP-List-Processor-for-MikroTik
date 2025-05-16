@@ -8,8 +8,6 @@ This Python script downloads a MikroTik RouterOS script file containing Iranian 
   ```
   https://raw.githubusercontent.com/MrAriaNet/Get-IP-Iran/main/list.rsc
   ```
-- Extracts IP addresses from RouterOS `add address` rules.
-- Replaces the list name with `Iran`.
 - Saves the output as a plain text file: `iran_ip_list.txt`.
 
 ## 🛠️ Requirements
