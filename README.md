@@ -40,24 +40,18 @@ python getIranIpsForMicrotik.py
 iran_ip_list.txt
 ```
 
-Each line will look like:
-
-```
-add address=2.57.3.0/24 list=Iran
-```
 
 ## 📂 Output Example
 
-If the original line is:
+
+It will be  :
 
 ```
-:do { add address=2.57.3.0/24 list=NoNAT } on-error={}
-```
-
-It will be transformed into:
-
-```
+/ip firewall address-list
 add address=2.57.3.0/24 list=Iran
+.
+.
+.
 ```
 
 ## 📄 License
