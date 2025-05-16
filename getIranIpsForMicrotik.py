@@ -11,7 +11,7 @@ def process_rsc_content(content):
 
     # Skip the first two lines
     processed_lines = []
-    for line in lines[2:]:
+    for line in lines:
         line = line.strip()
         if line.startswith(":do { add address=") and "list=" in line:
             # Extract address
