@@ -1,0 +1,25 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+env/
+.venv/
+.env/
+
+# Output file from script
+iran_ip_list.txt
+
+# VSCode settings (if applicable)
+.vscode/
+
+# Mac OS metadata
+.DS_Store
+
+# PyCharm project files
+.idea/
+
+# output files
+*.txt
